@@ -13,8 +13,6 @@ public class KMI {
 
         kmi = KMIsvoris / (KMIugis * KMIugis);
         System.out.println("Jūsų kuno masės indeksas yra: " +kmi);
-
-        System.out.println("Tik testuoju");
-
+        skaneris.close();
     }
 }
