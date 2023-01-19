@@ -1,0 +1,54 @@
+Bitai tai atmintis naudojama pc resursu kuo maziau tuo geriau. (Priklauso nuo situacijos)
+Kintamieji tai duomenu saugotojas (kaip deze i kuria priskiriame reiksme kuria veliau galesime panaudoti) skirstomas i tipus:
+
+Labiausiai naudojami:
+boolean	1 bitas.	          Nusako true arba false reiksme (taip / ne)
+int	    4 bitai.	          Pilnas skaicius nuo -2,147,483,648 iki 2,147,483,647
+double	8 bitai.	          Pilnas skaicius po kablelio 15 skaiciu.  PVZ: 1.235846789615476
+char	2 bitai.	          Naudojamas vienai raidei arba simboliui   PVZ: 'A' '@' (Naudojama '')
+String  Priklauso nuo ilgio.  Naudojamas Laisvam tekstui. PVZ: "Sveikas pasaulis" (Naudojama su "" dazniausiai vartotojo ivestis ir rasomas su diziaja raide String)
+
+Reciau naudojami:
+byte	1 bitas.           	  Pilnas skaicius nuo -128 iki 127
+float	4 bitai.           	  Pilnas skaicius po kablelio nuo 6 iki 7 skaicius. PVZ: 3.5489134f (reikia skaiciaus gale mazaja f raide prideti)
+long	8 bitai.	          Pilnas skaicius nuo -9,223,372,036,854,775,808L iki 9,223,372,036,854,775,807L (Skaiciaus gale reikia uzdeti diziaja L raide)
+short	2 bitai.	          Pilnas skaicius nuo -32,768 iki 32,767
+
+Kintamuju priskyrimas:
+int pavadimimas;
+= reiksme arba skaicius;
+
+priskyrus pavadimima arba reiksme naudojamas ; simbolis
+
+kintamasis Pavadinimas = reisme;
+
+int manoSkaicius = 5;
+boolean arMasinaUzvesta = true;
+char manoMegstamiausiaRaide = 'a';
+
+String vartotojoVardas;
+vartotojoVardas = "Mano masina yra uzvesta";
+
+String komentaras = "Vartotojo komentaras";
+System.out.println(komentaras); (komentaro tekstas nustatymas musu)
+
+Kintamuju priskyrimas arba keitimas.
+Kodas skaitomas is virsaus i apacia, kintamui galima priskirti reiksme eigoje pvz:
+
+int x = 100;
+int y = 200;
+int laikinas; // laikinas kintamasis be priskyrimo kaip tuscia deze i kuria gali patalpinti reiksme
+
+x=y;
+
+tai dabar bus lygus 200;
+arba galima x arba y reiksme patalpinti atskiram laikinam kintamajam pvz laikinas ir kaip jos reikes pasiimti atgal
+
+temp = x; //temp kintamasis gauna x reiksme
+x = y; // x kintamasis gauna y reiksme
+y = temp; // y reiksme gauna x reiksme kuri buvo patalpinta laikinam kintamajam ?
+
+dauugyba dalyba sudetis atimtis
+skliuasteliuose matematika padaro pirmiau
+
+z = a*(b+c)

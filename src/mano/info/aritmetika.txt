@@ -1,0 +1,25 @@
+Vienetines aritmetines | !, ++,  --, +, -, *, /, %, /, %  | Prioritetas aukštas.
+Palyginimo             | < ar mažiau | > ar daugiau | <= ar mažiau ar lygu | >= ar daugiau lygu | == ar lygu , != ar nelygu.
+Priskyrimo             | /=, %=                           | Prioritetas žemas.
+
+Ciklo kitimo žingsniai:
+
+++operandas | Operando reikšmė didinama vienetu, tada panaudojama.
+--operandas | Operando reikšmė mažinama vienetu, tada panaudojama.
+operandas++ | Operando reikšmė panaudojama, tada padidinama vienetu.
+operandas-- | Opernado reikšmė panaudojama, tada sumažinama vienetu.
+
+Sudėtinis priskyrimo sakinys:
+
+n += 2; || n=n +2;
+n -= 2; || n=n -2;
+n *= 2; || n=n *2;
+n /= 2; || n=n /2;
+n %= 2; || n=n %2;        //Pricentas isveda trupmenine dali
+
+for ciklas:
+
+Skliausteliuose nusakomi ciklo parametrai
+for (int h = 1; h <11; h++) {
+
+}
