@@ -19,12 +19,20 @@ public class ifelse {
             atsakymas = i * sk;
             if (simbolis.equals("/")) { //eilutes lyginti tik per funkcija equals
                 System.out.println("Atliksime dalybos veiksmus:");
+                if (simbolis.equals("/") && atsakymas < 50) {
+                    System.out.println(sk + " / " + i + " = " +atsakymas+ " <50");
+                }else if (simbolis.equals("/") && atsakymas == 50) {
+                    System.out.println(sk + " / " + i + " = " +atsakymas+" == 50");
+                }else if (simbolis.equals("/") && atsakymas > 50) {
+                    System.out.println(sk + " / " + i + " = " +atsakymas+ " > 50");
+                }
+                System.out.println("Atliksime daugybos veiksmus:");
             } else if (simbolis.equals("*") && atsakymas < 50) {
-                System.out.println(sk + "*" + i + " = " +atsakymas+ " <50");
+                System.out.println(sk + " * " + i + " = " +atsakymas+ " <50");
             }else if (simbolis.equals("*") && atsakymas == 50) {
-                System.out.println(sk + "*" + i + " = " +atsakymas+" == 50");
+                System.out.println(sk + " * " + i + " = " +atsakymas+" == 50");
             }else if (simbolis.equals("*") && atsakymas > 50) {
-                System.out.println(sk + "*" + i + " = " +atsakymas+ " > 50");
+                System.out.println(sk + " * " + i + " = " +atsakymas+ " > 50");
             }
             else { //Visais kitais atvejais
                 System.out.println("Neteisingas simbolis");
