@@ -29,7 +29,7 @@ public class ifelse {
                 } else if (dalyba > 50) {
                     System.out.println(sk + " / " + i + " = " + dalyba + " > 50");
                 }
-            } else {
+            } else if (simbolis.equals ("*")){ // visais kitais atvejais kai zenklas yvedamas ne /
                 daugyba = (i * sk);
                 if (daugyba < 50) {
                     System.out.println(sk + " * " + i + " = " + daugyba + " <50");
@@ -39,6 +39,10 @@ public class ifelse {
                     System.out.println(sk + " * " + i + " = " + daugyba + " > 50");
                 }
         } // salygos su simbolio nustatymo pabaiga
+            else {
+                System.out.println("Blogai yvestas simbolis");
+                break;
+            }
     } //for pabaiga
 } // funkcijos main end
 } //baigesi klase
