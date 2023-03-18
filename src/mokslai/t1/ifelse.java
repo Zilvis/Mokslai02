@@ -1,4 +1,4 @@
-package mokslai;
+package mokslai.t1;
 import java.util.Scanner;
 
 public class ifelse {

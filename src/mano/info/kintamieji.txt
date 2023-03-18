@@ -14,6 +14,8 @@ float	4 bitai.           	  Pilnas skaicius po kablelio nuo 6 iki 7 skaicius. PV
 long	8 bitai.	          Pilnas skaicius nuo -9,223,372,036,854,775,808L iki 9,223,372,036,854,775,807L (Skaiciaus gale reikia uzdeti diziaja L raide)
 short	2 bitai.	          Pilnas skaicius nuo -32,768 iki 32,767
 
+Primityvius kintamuosius galima naudoti: int - Integer, double - Double, boolean - Boolean (Tada galima naudoti metodus)
+
 Kintamuju priskyrimas:
 int pavadimimas;
 = reiksme arba skaicius;

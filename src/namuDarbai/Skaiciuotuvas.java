@@ -1,4 +1,4 @@
-package mano;
+package namuDarbai;
 
 import java.util.*;
 

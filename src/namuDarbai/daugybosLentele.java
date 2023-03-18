@@ -1,3 +1,5 @@
+package namuDarbai;
+
 import java.util.*;
 public class daugybosLentele {
     public static void main(String[] args) {
